@@ -91,7 +91,7 @@ jobs:
           #параметр воркфлоу, указывающий нужную версию Node.js
           node-version: 18
       - name: Install Dependencies
-       run: |
+        run: |
          cd frontend
          npm ci
       - name: Test Frontend
